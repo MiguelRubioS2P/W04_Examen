@@ -16,6 +16,8 @@ namespace W04_Examen
     {
         //Creamos una variable global para manejar la conexión con la base de datos.
         private string connectionMysql = "Server=localhost;Database=biblioteca;Uid=lector;Pwd=seCret_16";
+        AutorBuscador autorForm = null;
+        bool existe = false;
         public LibrosBuscador()
         {
             InitializeComponent();
@@ -60,6 +62,18 @@ namespace W04_Examen
 
         private void buttonIrAutores_Click(object sender, EventArgs e)
         {
+
+            this.Hide();
+            if (!existe)
+            {
+                autorForm = new AutorBuscador();
+                autorForm.Show();
+                autorForm.Location = new Point(this.Location.X + this.Size.Width + 10,
+                    this.Location.Y);
+                existe = true;
+            }
+
+            autorForm?.Show();
 
         }
 

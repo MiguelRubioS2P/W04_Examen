@@ -68,6 +68,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autor.cs" />
+    <Compile Include="AutorBuscador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutorBuscador.Designer.cs">
+      <DependentUpon>AutorBuscador.cs</DependentUpon>
+    </Compile>
     <Compile Include="InfoLibro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AutorBuscador.resx">
+      <DependentUpon>AutorBuscador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InfoLibro.resx">
       <DependentUpon>InfoLibro.cs</DependentUpon>
     </EmbeddedResource>
