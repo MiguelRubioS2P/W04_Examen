@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W04_Examen", "W04_Examen.csproj", "{DA32713E-702F-4E2C-AA84-9A1844F98203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W04_ExamenLibrosAutores", "W04_ExamenLibrosAutores.csproj", "{DA32713E-702F-4E2C-AA84-9A1844F98203}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W05_ExamenRegistroEncontrar", "W05_ExamenRegistroEncontrar\W05_ExamenRegistroEncontrar.csproj", "{7431D04E-C6E6-4273-B769-4FC09E0947E9}"
 EndProject
